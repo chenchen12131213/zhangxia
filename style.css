@@ -1,0 +1,54 @@
+#main{
+    display: flex;/*水平居中*/
+    justify-content: center;
+    align-items: center;
+	text-align: center;
+}
+#box1{/*整体*/
+    width: 900px; 
+	height: 530px; 
+	background-color: #C8F7FF; 
+	float: left;
+	margin-right: 10px;
+}
+#box2{/*顶部*/
+    width: 900px;
+	height: 120px;
+	background-color: #7D8AF7;
+}
+#box3{/*导航条*/
+    width: 900px;
+	height: 80px;
+	background-color: #549DC0;
+}
+#box4{/*中间左边*/
+    width: 250px;
+	height: 250px;
+	background-color: #E7B5FA;
+	float: left;
+}
+#box5{/*中间右边*/
+    width: 250px;
+	height: 250px;
+	background-color: #E7B5FA ;
+	float: right;
+	margin-left: 180px;
+}
+#box6{/*底部*/
+    width: 900px;
+	height: 80px;
+	background-color:#7D8AF7;
+	margin-top: 250px;
+}
+#end{/*第二张图底部*/
+	width: 900px;
+	height: 60px;
+	background-color: #549DC0;
+	margin-top: 400px;
+	
+}
+#three{/*第三张图右边*/
+	width: 200px; 
+	height: 530px; 
+	background-color: antiquewhite;
+}
